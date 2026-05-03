@@ -27,7 +27,7 @@ This project asks: **can we add momentum back on top of that, and keep memory lo
 **Hardware:** Google Colab A100-SXM4-40GB  
 **Dataset:** C4 `en` in streaming mode (no disk download required)  
 **Models:** LLaMA 60M, 130M, 350M (GaLore benchmark configs)  
-**Baselines:** Adam, SGD, vanilla SinkGD — identical LR schedules, batch sizes, and token budgets
+**Baselines:** Adam, vanilla SinkGD
 
 ## Run It
 
